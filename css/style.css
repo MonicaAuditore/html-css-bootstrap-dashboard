@@ -41,3 +41,9 @@ body {
 .my-bg-azzurro {
   background-color: #1b72e8;
 }
+
+.plus {
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 4px;
+}
