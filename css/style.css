@@ -18,19 +18,26 @@ body {
 }
 
 .main {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 87px);
 }
 
-.height-130 {
-  height: 130px;
+.badge-edit {
+  border-radius: 15px;
 }
 
-.height-300 {
-  height: 300px;
-  background-color: #610dfd;
+.name-logo {
+  font-size: 30px !important;
+  color: #fff;
 }
 
-.height-303 {
-  height: 303px;
-  background-color: #0dfd99;
+.my-bg-bage {
+  background-color: #165bba;
+}
+
+.my-bg-blu {
+  background-color: #051e34;
+}
+
+.my-bg-azzurro {
+  background-color: #1b72e8;
 }
