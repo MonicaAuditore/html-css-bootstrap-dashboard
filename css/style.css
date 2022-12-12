@@ -47,3 +47,11 @@ body {
   display: inline-block;
   padding-bottom: 4px;
 }
+
+.my-cursor-a {
+  cursor: pointer;
+}
+
+.my-cursor-a:hover {
+  background-color: grey;
+}
