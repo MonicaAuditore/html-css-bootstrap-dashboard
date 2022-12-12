@@ -55,3 +55,7 @@ body {
 .my-cursor-a:hover {
   background-color: grey;
 }
+
+.my-border-radius {
+  border-radius: 10px;
+}
