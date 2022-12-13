@@ -84,6 +84,11 @@ main > aside {
   padding: 2px;
 }
 
+.tablet img {
+  width: 50px;
+  display: none;
+}
+
 .offcanvas,
 .offcanvas-lg,
 .offcanvas-md,
@@ -113,6 +118,14 @@ main > aside {
 
   .plus-tag {
     display: inline-block;
+  }
+
+  .tablet img {
+    display: block;
+  }
+
+  .desk img {
+    display: none;
   }
 }
 
