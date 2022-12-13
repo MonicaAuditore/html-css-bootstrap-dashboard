@@ -46,7 +46,6 @@ main {
   width: 100%;
   height: calc(100vh - 70px);
   display: flex;
-  overflow: auto;
 }
 
 main > aside {
@@ -60,6 +59,7 @@ main > aside {
 #main-content {
   width: calc(100% - 130px);
   height: 100%;
+  overflow: auto;
 }
 
 #main-content > header {
