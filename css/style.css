@@ -100,3 +100,7 @@ main > aside {
 .my-border-radius {
   border-radius: 10px;
 }
+
+.img-stats img {
+  width: 100%;
+}
