@@ -32,6 +32,10 @@ body {
 .my-bg-bage {
   background-color: #165bba;
 }
+
+.my-align-items {
+  align-items: center;
+}
 /* ASIDE */
 
 .my-bg-blu {
@@ -46,7 +50,7 @@ main {
 }
 
 main > aside {
-  width: 200px;
+  width: 130px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -54,7 +58,7 @@ main > aside {
 }
 
 #main-content {
-  width: calc(100% - 200px);
+  width: calc(100% - 130px);
   height: 100%;
 }
 
