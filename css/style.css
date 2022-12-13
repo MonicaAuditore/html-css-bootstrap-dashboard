@@ -71,6 +71,10 @@ main > aside {
   background-color: #1b72e8;
 }
 
+.plus-tag {
+  display: none;
+}
+
 /* MEDIA QUERY */
 
 @media all and (max-width: 992px) {
@@ -78,8 +82,20 @@ main > aside {
     width: 80px;
   }
 
+  aside span {
+    display: none;
+  }
+
   #main-content {
     width: calc(100% - 80px);
+  }
+
+  .delete {
+    display: none;
+  }
+
+  .plus-tag {
+    display: inline-block;
   }
 }
 
