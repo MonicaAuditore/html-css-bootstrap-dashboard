@@ -154,3 +154,9 @@ main > aside {
 .img-stats img {
   width: 100%;
 }
+
+.popover {
+  --bs-popover-body-padding-x: 5rem;
+  --bs-popover-body-padding-y: 1rem;
+  --bs-popover-arrow-height: 0rem;
+}

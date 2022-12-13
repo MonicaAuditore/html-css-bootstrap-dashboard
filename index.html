@@ -97,7 +97,12 @@
                 />
               </svg>
 
-              <svg
+             
+            
+              <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Profilo
+              Fatturazione 
+              Logout">
+                <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -109,6 +114,11 @@
                   d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
                 />
               </svg>
+              </button>
+              <!-- prova -->
+              
+              <!-- prova -->
+              
             </div>
           </div>
         </div>
@@ -280,10 +290,10 @@
                                 <div id="nomeHelp" class="form-text"></div>
                               </div>
                               <div class="col-6"><label for="nome" class="form-label">Email</label>
-                                <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp">
+                                <input type="email" class="form-control" id="nome" aria-describedby="nomeHelp">
                                 <div id="nomeHelp" class="form-text"></div></div>
-                                <div class="col-6"><label for="nome" class="form-label">Password</label>
-                                  <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp">
+                                <div class="col-6"><label for="InputPassword" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="InputPassword" aria-describedby="nomeHelp">
                                   <div id="nomeHelp" class="form-text"></div>
                                 </div>
                                 <div class="col-12"><label for="nome" class="form-label">Indirizzo</label>
@@ -650,5 +660,8 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+<script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
   </body>
 </html>
