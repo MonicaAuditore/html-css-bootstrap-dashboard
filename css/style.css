@@ -143,6 +143,21 @@ main > aside {
   }
 }
 
+@media all and (max-width: 576px) {
+  .roi,
+  .data {
+    display: none;
+  }
+
+  .img-classi {
+    display: block;
+  }
+
+  .numero-classe {
+    display: block;
+  }
+}
+
 .plus {
   font-weight: bold;
   display: inline-block;
