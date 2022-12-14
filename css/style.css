@@ -64,7 +64,15 @@ main > aside {
 
 #main-content > header {
   width: 100%;
-  /* height: 150px; */
+  height: 150px;
+}
+
+#main-header svg {
+  margin-right: 15px;
+}
+
+#nuovoStudente svg {
+  margin-bottom: 4px;
 }
 
 .my-bg-azzurro {
