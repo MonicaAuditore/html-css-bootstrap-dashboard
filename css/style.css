@@ -127,6 +127,20 @@ main > aside {
   .desk img {
     display: none;
   }
+
+  .row {
+    --bs-gutter-x: 0.5rem;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 1rem;
+  }
 }
 
 .plus {
@@ -159,4 +173,8 @@ main > aside {
   --bs-popover-body-padding-x: 5rem;
   --bs-popover-body-padding-y: 1rem;
   --bs-popover-arrow-height: 0rem;
+}
+
+aside {
+  background-image: url(../img/sidebar-bg.png);
 }
